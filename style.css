@@ -1,0 +1,124 @@
+body{
+    background-color: rgb(247, 247, 247);
+    font-family: sans-serif;
+    width: 100%
+}
+/*definicao da cor de fundo, fonte e largura do corpo da pagina*/
+
+.container{
+    max-width: 640px;
+
+    margin: 0 auto;
+
+    border: 1px solid #ccc;
+
+    box-shadow: 0px 5px 5px 5px #ccc ;
+}
+/*determinacao do tamanho maximo da pagina, margin foi utilizada para centralizar os itens da pagina; definicao da borda da pagina com sombreamento*/
+
+.cabecalho{
+    margin: 20px 20px 0 20px;
+}
+/*margin usada para criar uma moldura em relacao ao container, servindo como base para posicionamento dos demais itens*/
+
+
+.banner{
+    margin: -5px 58px 0 56px;
+}
+/*classe cirada para primeira noticia, a qual segue apos o cabecalho, determinando o posicionamento de margim para ficar mais proxima ao cabecalho, criando uma efeito de integracao entre as duas imagens*/
+
+.rodape{
+    margin: 0px 20px 20px 20px
+}
+/*segue o memso modelo do cabecalho para justificar as imagens*/
+
+.noticia-01, .noticia-02{
+    float: left;
+}
+    
+
+/*ultilizada para posicionar a segunda noticia ao lado da primeira na segunda secao de noticias dentro da pagina; display inline-block feito internamente*/
+
+/* .noticia-01{
+    margin: 36px 14px 0 56px;
+
+} */
+/*definicao dos parametros do espaco para clocacao da imagen*/
+
+/* .noticia-02{
+    margin: 36px 58px 0 10px;
+} */
+/*definicao dos parametros de espaco para alocacao da imagem*/
+
+
+img{
+  width: 100%;
+}
+/*definicao da largura de todas as imagens utilizadas em largura maxima para nao perder qualdiade*/
+
+/* .img-cabecalho{
+    width: 600px;
+    height: 167px;
+} */
+/*definicao de altura e largura da imagem usada no cabecalho*/
+
+/* .img-banner{
+    width: 526px;
+    height: 234px;
+} */
+/*definicao de altura e largura da imagem usada na priemeira noticia*/
+
+/* .img-n1, .img-n2{
+    width: 250px;
+    height: 190px;
+} */
+/*definicao de altura e largura da imagem usadas nas noticias 01 e 02*/
+
+.img-sublinha{
+    width: 50%;
+    margin-bottom: 20px;
+}
+/*definicao de altura e largura da imagem usada para divisao das noticias e divisao dos blocos*/
+
+.banner .img-sublinha{
+    width: 65%;
+    margin-bottom: 0;  
+}
+/*definicao de altura e largura da imagem usada especificamente para dividir o bloco da noticia principal das demais*/
+
+/* .titulo-n1, .titulo-n2{
+    width: 250px;
+} */
+/*alteracao das larguras dos titulos das noticias secundarias, alterado exclusivamente a tag h das duas divs*/
+
+h2{
+    font-size: 18px;
+}
+/*alteracao geral do tamanho de fonte das tags h utilizadas na pagina*/
+
+.banner h2{
+    font-size: 22px;
+}
+/*alteracao do tamanho de fonte exclusivamente da tag h usada dentro da div banner*/
+
+.banner p{
+    margin-bottom: 0;
+}
+/*reducao da margem inferiror da tag p da div banner*/
+
+/* @media (max-width: 600px){
+    .noticia-01, .noticia-02{
+         width: 100%;
+    }
+} */
+
+.noticia-01, .noticia-02{
+    width: 45%;
+    margin: 2.5%;
+    
+}
+
+.noticias{
+    padding: 20px;
+
+}
