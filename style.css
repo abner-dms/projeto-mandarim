@@ -36,43 +36,9 @@ body{
     float: left;
 }
     
-
-/*ultilizada para posicionar a segunda noticia ao lado da primeira na segunda secao de noticias dentro da pagina; display inline-block feito internamente*/
-
-/* .noticia-01{
-    margin: 36px 14px 0 56px;
-
-} */
-/*definicao dos parametros do espaco para clocacao da imagen*/
-
-/* .noticia-02{
-    margin: 36px 58px 0 10px;
-} */
-/*definicao dos parametros de espaco para alocacao da imagem*/
-
-
 img{
   width: 100%;
 }
-/*definicao da largura de todas as imagens utilizadas em largura maxima para nao perder qualdiade*/
-
-/* .img-cabecalho{
-    width: 600px;
-    height: 167px;
-} */
-/*definicao de altura e largura da imagem usada no cabecalho*/
-
-/* .img-banner{
-    width: 526px;
-    height: 234px;
-} */
-/*definicao de altura e largura da imagem usada na priemeira noticia*/
-
-/* .img-n1, .img-n2{
-    width: 250px;
-    height: 190px;
-} */
-/*definicao de altura e largura da imagem usadas nas noticias 01 e 02*/
 
 .img-sublinha{
     width: 50%;
@@ -84,12 +50,6 @@ img{
     width: 65%;
     margin-bottom: 0;  
 }
-/*definicao de altura e largura da imagem usada especificamente para dividir o bloco da noticia principal das demais*/
-
-/* .titulo-n1, .titulo-n2{
-    width: 250px;
-} */
-/*alteracao das larguras dos titulos das noticias secundarias, alterado exclusivamente a tag h das duas divs*/
 
 h2{
     font-size: 18px;
@@ -106,19 +66,11 @@ h2{
 }
 /*reducao da margem inferiror da tag p da div banner*/
 
-/* @media (max-width: 600px){
-    .noticia-01, .noticia-02{
-         width: 100%;
-    }
-} */
-
 .noticia-01, .noticia-02{
     width: 45%;
     margin: 2.5%;
-    
 }
 
 .noticias{
     padding: 20px;
-
 }
